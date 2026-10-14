@@ -56,8 +56,8 @@ const upgrades: upgrade[] = [{
 document.body.innerHTML = `
   <h1 style="font-family: 'Rubik Pixels'; color: black; text-align: center;">PROPAGANDA MACHINE</h1>
   <img style="display: block; margin: 0 auto;" src="${orange}" alt="Orange Man">
-  <p style="text-align: center;">propaganda generated: <span id="propaganda">0</span></p>
-  <p style="text-align: center;">propaganda per second: <span id="prop_per_sec">0</span></p>
+  <p style="text-align: center; font-family: 'Rubik Pixels';">propaganda generated: <span id="propaganda">0</span></p>
+  <p style="text-align: center; font-family: 'Rubik Pixels'; ">propaganda per second: <span id="prop_per_sec">0</span></p>
   <button style="display: block; margin: 0 auto;" id="increment">generate propaganda!</button>
   <div id="upgrade_container" style="text-align: center;"></div>
   <img style="display: inline;" src="${fundraiser}" alt="Fundraiser Stand">
